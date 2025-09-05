@@ -2,8 +2,8 @@ name: Sub Checker
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */48 * * *'
+#  schedule:
+#    - cron: '0 */48 * * *'
 
 concurrency:
   group: ${{ github.workflow }}
